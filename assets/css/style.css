@@ -1,6 +1,7 @@
 :root {
     --primary: #0db4e6;
     --secondary: #e2ecef;
+    --heading: #262a35 ;
 } 
 
 * {
@@ -8,10 +9,10 @@
     max-width: 100%;
     font-family: 'Open Sans', sans-serif;
 }
-
-header {
-    padding-left : 150px !important;
-    padding-right: 150px !important;
+header{
+    background-color: var(--secondary)
+}
+.header-inner {
     display: flex;
     align-items: center;
     vertical-align: middle;
@@ -19,7 +20,6 @@ header {
     padding: 20px;
     height: 30px;
     color: #9badb2;
-    background-color: var(--secondary)
 }
 
 ul {
