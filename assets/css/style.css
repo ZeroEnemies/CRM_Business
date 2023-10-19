@@ -1,0 +1,259 @@
+:root {
+    --primary: #0db4e6;
+    --secondary: #e2ecef;
+    --heading: #262a35;
+}
+
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+header {
+    background-color: var(--secondary)
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding: 15px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: var(--primary);
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+}
+
+.brand img {
+    height: 70px;
+}
+
+.item{
+    position: relative;
+}
+
+.owl-nav{
+    display: none;
+}
+
+.owl-dots{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.owl-dots button{
+    width: 30px;
+}
+
+.owl-dot span{
+    background-color: transparent !important;
+    width: 13px !important;
+    height: 13px !important;
+    border: 2px solid white;
+}
+
+.owl-dot.active span{
+    border: 2px solid var(--primary);
+}
+
+.item-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+.item-content h3{
+    font-weight: 600;
+    color: white;
+}
+
+.item-content p{
+    color: white;
+}
+
+.i-overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-contact-img img {
+    margin: 0 !important;
+}
+.section-content h1 {
+    font-size: 50px;
+    font-weight: 700 !important;
+}
+.carousel-wrapper h1 {
+    color: white;
+    font-size: 50px !important;
+    font-weight: 700 !important;
+}
+.social-icons img {
+    margin-left: 15px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    padding: 20px;
+    height: 30px;
+    color: #9badb2;
+}
+
+.contact-options {
+    display: flex;
+}
+
+.active {
+    color: var(--primary) !important;
+}
+
+.icon-contact {
+    padding-right: 20px;
+    display: flex;
+}
+
+.contact-img {
+    display: flex;
+    height: 25px;
+    padding: 5px;
+}
+
+.contact-contact {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.carousel-icons {
+    padding-bottom: 5px;
+}
+
+.feature-icons {
+    background-color: var(--secondary);
+    display: flex;
+    height: 75px !important;
+    width: 75px !important;
+    align-items: center;
+    justify-content: center;;
+}
+
+.stats {
+    background-image: url("../img/shadow.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row-gap {
+    margin-top: 25px !important;
+}
+
+.icons-active {
+    background-color: #9bc97e !important;
+}
+
+.icons-inactive {
+    background-color: white;
+}
+
+
+
+.more-services {
+    width: 180px;
+    height: 50px;
+}
+
+.cta {
+    background-image: url("../img/shadow.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sitemap {
+    min-height: 65vh;
+    background-image: url("../img/sitemap-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: grey;
+}
+
+.footer-heading {
+    margin-bottom: 30px;
+}
+.footer-brand {
+    margin-bottom: 30px;
+}
+.footer-contact-img {
+    border: solid 1px var(--primary);
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.copyright-notice {
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    background-color: black !important;
+    color: grey;
+}
+
+.footer-navigation {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.footer-navigation :nth-child(2) {
+    margin-top: 20px;
+}
+
+.footer-heading {
+    color: white !important;
+}
+
+.recent-tweets {
+    display: flex !important;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.recent-tweets :nth-child(2) {
+    margin-left: 20px;
+}
+
