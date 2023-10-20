@@ -138,10 +138,21 @@
 
 @media (max-width: 1200px) {  }
 
-@media (max-width: 992px) {  }
+@media (max-width: 992px) {
+    .carousel-wrapper h1{
+        font-size: 40px !important;
+       
+    }
+ }
 
 @media (max-width: 768px) { 
-
+    .item-content h3 {
+        display: none;
+    }
+    .carousel-wrapper h1{
+        font-size: 30px !important;
+        width: max-content;
+    }
     .reference-grid {
         border: 0;
         row-gap: 40px;

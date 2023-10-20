@@ -9,8 +9,9 @@
     font-family: 'Lato', sans-serif;
 }
 
-
-
+.owl-dots {
+    margin-top: -20px  !important  ;
+}
 header {
     background-color: var(--secondary)
 }
@@ -257,3 +258,9 @@ nav {
     margin-left: 20px;
 }
 
+.carousel-wrapper {
+    height: 100%;
+}
+.carousel-wrapper h1 {
+    width: max-content;
+}
